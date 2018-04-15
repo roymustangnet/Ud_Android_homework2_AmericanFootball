@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">American Football Score Counter</string>
+    <string name="app_name">美式足球计分器</string>
     <string name="teamA_name">Team A</string>
     <string name="teamB_name">Team B</string>
     <string name="touchdown">touchdown</string>
