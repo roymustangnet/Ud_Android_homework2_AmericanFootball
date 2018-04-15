@@ -15,54 +15,54 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void ResetScore(View view) {
+    public void resetScore(View view) {
         teamAScore = 0;
         teamBScore = 0;
         display();
     }
 
-    public void add_touchdown_A(View view) {
+    public void addTouchDownA(View view) {
         teamAScore += 6;
         display();
     }
 
-    public void add_fieldgoal_A(View view) {
+    public void addFieldGoalA(View view) {
         teamAScore += 3;
         display();
     }
 
-    public void add_safety_A(View view) {
+    public void addSafetyA(View view) {
         teamAScore += 2;
         display();
     }
 
-    public void add_extrapoint_A(View view) {
+    public void addExtraPointA(View view) {
         teamAScore += 1;
         display();
     }
 
-    public void add_touchdown_B(View view) {
+    public void addTouchDownB(View view) {
         teamBScore += 6;
         display();
     }
 
-    public void add_fieldgoal_B(View view) {
+    public void addFieldGoalB(View view) {
         teamBScore += 3;
         display();
     }
 
-    public void add_safety_B(View view) {
+    public void addSafetyB(View view) {
         teamBScore += 2;
         display();
     }
 
-    public void add_extrapoint_B(View view) {
+    public void addExtraPointB(View view) {
         teamBScore += 1;
         display();
     }
 
 
-    public void display() {
+    private void display() {
         TextView scoreViewA = (TextView) findViewById(R.id.scoreA);
         TextView scoreViewB = (TextView) findViewById(R.id.scoreB);
         scoreViewA.setText(String.valueOf(teamAScore));

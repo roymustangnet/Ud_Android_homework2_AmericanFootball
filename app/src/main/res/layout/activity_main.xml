@@ -43,36 +43,36 @@
                 android:layout_height="match_parent"
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
+                android:onClick="addTouchDownA"
                 android:text="@string/touchdown"
-                android:textAllCaps="true"
-                android:onClick="add_touchdown_A"/>
+                android:textAllCaps="true" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
+                android:onClick="addFieldGoalA"
                 android:text="@string/fieldgoal"
-                android:textAllCaps="true"
-                android:onClick="add_fieldgoal_A"/>
+                android:textAllCaps="true" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
+                android:onClick="addSafetyA"
                 android:text="@string/safety"
-                android:textAllCaps="true"
-                android:onClick="add_safety_A"/>
+                android:textAllCaps="true" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
+                android:onClick="addExtraPointA"
                 android:text="@string/extrapoint"
-                android:textAllCaps="true"
-                android:onClick="add_extrapoint_A"/>
+                android:textAllCaps="true" />
         </LinearLayout>
 
         <View
@@ -113,34 +113,35 @@
                 android:layout_height="match_parent"
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
+                android:onClick="addTouchDownB"
                 android:text="@string/touchdown"
-                android:textAllCaps="true"
-                android:onClick="add_touchdown_B"/>
+                android:textAllCaps="true" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
+                android:onClick="addFieldGoalB"
                 android:text="@string/fieldgoal"
-                android:textAllCaps="true"
-                android:onClick="add_fieldgoal_B"/>
+                android:textAllCaps="true" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
+                android:onClick="addSafetyB"
                 android:text="@string/safety"
-                android:textAllCaps="true" android:onClick="add_safety_B"/>
+                android:textAllCaps="true" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
+                android:onClick="addExtraPointB"
                 android:text="@string/extrapoint"
-                android:onClick="add_extrapoint_B"
                 android:textAllCaps="true" />
         </LinearLayout>
     </LinearLayout>
@@ -151,7 +152,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="32dp"
-        android:onClick="ResetScore"
+        android:onClick="resetScore"
         android:text="reset"
         android:textAllCaps="true" />
 </RelativeLayout>
